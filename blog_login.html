@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Sign In page</title>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+      <div class="container jumbotron">
+        <h1 class="text-center text-info">Sign Up</h1>
+        <div class="form-group">
+          <label for="Email">Enter Your Email:</label>
+          <input type="email" name="" value="" required>
+        </div>
+        <div class="form-group">
+          <label for="mobile">Enter your mobile number:</label>
+          <input type="text" name="" value="" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Enter Password</label>
+          <input type="password" name="" value="" required>
+        </div>
+          <button type="submit" name="button" class="btn-md btn-success" id="btn">Sign Up</button>
+
+        </div>
+    </form>
+  </body>
+  <script>
+    document.getElementById("btn").addEventListener("click",thanksDisplay)
+    function thanksDisplay(){
+      alert("Thank you");
+      window.open("my_blog2.html");
+    }
+  </script>
+</html>
